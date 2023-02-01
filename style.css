@@ -1,0 +1,180 @@
+ *{
+    box-sizing: border-box;
+ }
+ 
+ 
+ body 
+        .header{
+            background:url("mimi.jpeg");
+            background-repeat: No-repeat;
+            background-size: cover;
+            padding: 15%;
+            text-align: left;
+            position: relative;
+            font-size: x-large;
+        }
+
+        .topnav{
+            background-color: black;
+            overflow: hidden;
+        }
+        
+        .topnav a{
+            float: left;
+            display: block;
+            color:black;
+            text-align: center;
+            padding: 12px 13px;
+            text-decoration :none;
+            font-size: 17px;
+            font-size: x-large;
+        }
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+}
+
+.topnav a:hover{
+    color: brown;
+}
+
+.about_left{
+    width: 30%;
+    float: left;
+}
+
+.about_right{
+    width: 70%;
+    float: left;
+    padding-left: 25px ;
+    line-height: 2rem;
+}
+
+
+#about_section{
+    padding: 2% 2% 0%;
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10%;
+}
+img{
+    border-radius: 0;
+    border:3px solid black;
+}
+
+h3{
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(2, 2, 56);
+}
+#skills_section{
+    width: 50%;
+    background-color: darkgrey;
+    padding: 3% 3% 3%;
+    margin: 5px;
+    line-height: 1.5rem;
+    border: solid black;
+    width: 50%;
+}
+
+#education_section{
+    width:30%;
+    background-color: darkgrey;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 13%;
+    margin-left: 50%;
+    line-height: 1.5rem;
+    border: solid black;
+    width: 40%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+
+}
+#services_section{
+    width:50%;
+    background-color: darkgrey;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 13%;
+    margin-left: 30%;
+    line-height: 1.5rem;
+    border: solid black;
+    width: 50%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+
+}
+
+#Form_Section{
+border-radius: 5px;
+border: solid black;
+width: 100%;
+display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+background-color: darkgrey;
+margin-top: 15%;
+padding: 15px;
+}
+
+input[type=text], input[type=textarea], input[type=email]{
+    border-radius: 5px;
+    border: 2px solid rgb(33, 76, 204);
+    padding: 10px;
+    width: 80%;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    background-color: rgb(210, 169, 79);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(0, 26, 128);
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+.container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.skills, .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.skill, .project {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+.footer {
+  background: #010710;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  height: 60px;
+  text-align: center;
+
+}
