@@ -27,13 +27,13 @@
             padding: 12px 13px;
             text-decoration :none;
             font-size: 17px;
-            font-size: x-large;
+            font-size: xx-large;
         }
 
 .topnav {
     position: fixed;
     width: 100%;
-    height: 10%;
+    height: 5%;
     top: 0%;
 }
 
